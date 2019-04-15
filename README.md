@@ -1,6 +1,6 @@
 Elucidat Javascript Coding Test
 
-This coding test is split into two parts, frontend focused and backend focused, please pick the one that is most relevant to your desired role. Fullstack developers or the adventurous can attempt both.
+This coding test is split into two parts, frontend focused and backend focused, please pick the one that is most relevant to your desired role. Fullstack developers or the adventurous can attempt both.  Whatever test you do, please read to the end as there is information for both tests further down.
 
 ## Frontend Focus test
 
@@ -53,7 +53,10 @@ The booking site has proven extremely popular and traffic to it is heavy, multip
 
 
 
+## Further Information
 
+- Dummy data for the seats in both tests has been provided in `seatData.js` feel free to move this file or convert it if you wish, but please use the data as provided.
+- create-react-app bundles jest with it, however if you wish to write automated tests for front or back end, it is not required to only use jest. Please do, however, include a simple script in the package.json to run the tests, and explain your approach here:
 
 
 
