@@ -1,3 +1,71 @@
+Elucidat Javascript Coding Test
+
+This coding test is split into two parts, frontend focused and backend focused, please pick the one that is most relevant to your desired role. Fullstack developers or the adventurous can attempt both.
+
+## Frontend Focus test
+
+You are developing a user interface for a cinema booking system.  The UI should include the layout out of the cinema and when a user clicks on a seat they should be presented with their booking information in the style of a cinema ticket.  Users should be able to see the booking information, such as seat number, availability and price, before they click to book the seat.
+
+If you are familiar with react, please use that to build the ui.  This project has been created using facebook's create-react-app.  If you are not familiar with react and would prefer to use jQuery or vanilla javascript, please use the index.html inside the build folder as a starting point.
+
+React developers, please use yarn rather than npm and please do not eject the create-react-app set up. The react app can be started for development on port 3000 using `yarn start-frontend`.
+
+Guidance:
+
+Understanding that time may be a constraint for some, please focus on writing clean, maintainable and testable code rather than going overboard on UI design.
+
+
+## Backend Focus test
+
+You are developing the backend api for a cinema booking system.  The server should be written using express that has been set up to a basic extent for you.  The starting file for the api is `server.js` and the server can be started on port 8080 using `yarn backend-start`  The API should have the following endpoints:
+
+`/getSeatData` should take one query parameter, `seatNumber` and return a json response in the following format
+
+```
+    {
+        "seatNumber": "1A",
+        "price": "£12.99",
+        "available": true,
+        "disabilityAccessible": true
+    }
+```
+
+`/bookSeat` should take one query parameter, `seatNumber` and should alter the state of the seat availability and return the details of the seat in the same format as `/getSeatData`.
+
+`/returnAvailableSeats` will take one optional query parameter `disabled`.  If disabled is false it will return all the available seats.  If it is true, it will return only the disabled seats that are disability accessible.  The return value should be a json response in the following format
+
+```
+    {
+        seats: ["1A", "2A", "3A"]
+    }
+```
+
+`/returnCheapestSeat` will take no parameters and will return the cheapest, available seat(s) in the following format
+
+```
+    {
+        seats: ["1A"]
+    }
+```
+
+If you have the time and want to take on a further challenge then imagine the following scenario:
+The booking site has proven extremely popular and traffic to it is heavy, multiple people try to book the same seat in a smaller time period than it takes to complete the booking.  Please code a way around this problem and explain your approach here:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################### create-react-app info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
