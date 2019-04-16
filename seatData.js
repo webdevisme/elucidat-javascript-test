@@ -122,31 +122,31 @@ module.exports = {
         },
         {
             "seatNumber": "1E",
-            "price": "£12.99",
+            "price": "£8.99",
             "available": true,
             "disabilityAccessible": true
         },
         {
             "seatNumber": "2E",
-            "price": "£12.99",
+            "price": "£8.99",
             "available": true,
             "disabilityAccessible": false
         },
         {
             "seatNumber": "3E",
-            "price": "£12.99",
+            "price": "£8.99",
             "available": false,
             "disabilityAccessible": false
         },
         {
             "seatNumber": "4E",
-            "price": "£12.99",
+            "price": "£8.99",
             "available": true,
             "disabilityAccessible": false
         },
         {
             "seatNumber": "5E",
-            "price": "£12.99",
+            "price": "£8.99",
             "available": true,
             "disabilityAccessible": false
         },
