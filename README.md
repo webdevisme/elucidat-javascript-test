@@ -1,4 +1,4 @@
-Elucidat Javascript Coding Test
+# Elucidat Javascript Coding Test
 
 This coding test is split into two parts, frontend focused and backend focused, please pick the one that is most relevant to your desired role. Fullstack developers or the adventurous can attempt both.  Whatever test you do, please read to the end as there is information for both tests further down.
 
@@ -6,7 +6,7 @@ This coding test is split into two parts, frontend focused and backend focused, 
 
 You are developing a user interface for a cinema booking system.  The UI should include the layout of the cinema and when a user clicks on a seat they should be presented with their booking information in the style of a cinema ticket.  Users should be able to see the booking information, such as seat number, availability and price, before they click to book the seat.
 
-If you are familiar with react, please use that to build the ui.  This project has been created using facebook's create-react-app.  If you are not familiar with react and would prefer to use jQuery or vanilla javascript, please use the index.html inside the build folder as a starting point.
+If you are familiar with react, please use that to build the UI.  This project has been created using facebook's create-react-app.  If you are not familiar with react and would prefer to use jQuery or vanilla javascript, please use the index.html inside the build folder as a starting point.
 
 React developers, please use yarn rather than npm and please do not eject the create-react-app set up. The react app can be started for development on port 3000 using `yarn start-frontend`.
 
