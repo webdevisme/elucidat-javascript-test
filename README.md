@@ -19,7 +19,7 @@ Understanding that time may be a constraint for some, please focus on writing cl
 
 You are developing the backend api for a cinema booking system.  The server should be written using express that has been set up to a basic extent for you.  The starting file for the api is `server.js` and the server can be started on port 8080 using `yarn backend-start`  The API should have the following endpoints:
 
-`/getSeatData` should take one query parameter, `seatNumber` and return a json response in the following format
+`/seatData` [GET REQUEST] should take one query parameter, `seatNumber` and return a json response in the following format
 
 ```
     {
@@ -30,9 +30,9 @@ You are developing the backend api for a cinema booking system.  The server shou
     }
 ```
 
-`/bookSeat` should take one query parameter, `seatNumber` and should alter the state of the seat availability and return the details of the seat in the same format as `/getSeatData`.
+`/bookSeat` [POST REQUEST] should take one body parameter, `seatNumber` and should alter the state of the seat availability and return the details of the seat in the same format as `/getSeatData`.
 
-`/returnAvailableSeats` will take one optional query parameter `disabled`.  If disabled is false it will return all the available seats.  If it is true, it will return only the disabled seats that are disability accessible.  The return value should be a json response in the following format
+`/availableSeats` [GET REQUEST] will take one optional query parameter `disabled`.  If disabled is false it will return all the available seats.  If it is true, it will return only the disabled seats that are disability accessible.  The return value should be a json response in the following format
 
 ```
     {
@@ -40,7 +40,7 @@ You are developing the backend api for a cinema booking system.  The server shou
     }
 ```
 
-`/returnCheapestSeat` will take no parameters and will return the cheapest, available seat(s) in the following format
+`/cheapestSeat` [GET REQUEST] will take no parameters and will return the cheapest, available seat(s) in the following format
 
 ```
     {
