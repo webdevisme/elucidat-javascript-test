@@ -4,7 +4,7 @@ This coding test is split into two parts, frontend focused and backend focused, 
 
 ## Frontend Focus test
 
-You are developing a user interface for a cinema booking system.  The UI should include the layout out of the cinema and when a user clicks on a seat they should be presented with their booking information in the style of a cinema ticket.  Users should be able to see the booking information, such as seat number, availability and price, before they click to book the seat.
+You are developing a user interface for a cinema booking system.  The UI should include the layout of the cinema and when a user clicks on a seat they should be presented with their booking information in the style of a cinema ticket.  Users should be able to see the booking information, such as seat number, availability and price, before they click to book the seat.
 
 If you are familiar with react, please use that to build the ui.  This project has been created using facebook's create-react-app.  If you are not familiar with react and would prefer to use jQuery or vanilla javascript, please use the index.html inside the build folder as a starting point.
 
