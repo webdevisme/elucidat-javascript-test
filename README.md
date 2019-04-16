@@ -17,7 +17,7 @@ Understanding that time may be a constraint for some, please focus on writing cl
 
 ## Backend Focus test
 
-You are developing the backend api for a cinema booking system.  The server should be written using express that has been set up to a basic extent for you.  The starting file for the api is `server.js` and the server can be started on port 8080 using `yarn backend-start`  The API should have the following endpoints:
+You are developing the backend api for a cinema booking system.  The server should be written using express that has been set up to a basic extent for you.  The starting file for the api is `server.js` and the server can be started on port 8080 using `yarn backend-start`  The REST API should have the following endpoints:
 
 `/seatData` [GET REQUEST] should take one query parameter, `seatNumber` and return a json response in the following format
 
