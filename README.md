@@ -30,7 +30,7 @@ You are developing the backend api for a cinema booking system.  The server shou
     }
 ```
 
-`/bookSeat` [POST REQUEST] should take one body parameter, `seatNumber` and should alter the state of the seat availability and return the details of the seat in the same format as `/getSeatData`.
+`/bookSeat` [POST REQUEST] should take one body parameter, `seatNumber` and should alter the state of the seat availability and return the details of the seat in the same format as `/seatData`.
 
 `/availableSeats` [GET REQUEST] will take one optional query parameter `disabled`.  If disabled is false it will return all the available seats.  If it is true, it will return only the disabled seats that are disability accessible.  The return value should be a json response in the following format
 
