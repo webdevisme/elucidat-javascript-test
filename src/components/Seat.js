@@ -5,8 +5,8 @@ import './Seat.css';
 function Seat(props) {
     const handleClick = (event) => {
         event.preventDefault();
-        if (props.available) {
-            props.seatSelected(props.seatNumber);
+        if (props.data.available) {
+            props.seatSelected(props.data.seatNumber);
         } else {
             props.seatSelected(null);
         }
