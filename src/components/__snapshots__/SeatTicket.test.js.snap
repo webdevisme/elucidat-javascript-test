@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ticket when seat data passed to prop 1`] = `
+<div
+  className="Ticket"
+>
+  <button
+    className="close"
+    onClick={[Function]}
+  >
+    X
+  </button>
+  <img
+    alt="Seat Icon"
+    src="Seat.svg"
+  />
+  <table
+    className="details"
+  >
+    <tbody>
+      <tr>
+        <td>
+          Seat
+        </td>
+        <td>
+          1A
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Available
+        </td>
+        <td>
+          Yes
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Disability Access
+        </td>
+        <td>
+          Yes
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Price
+        </td>
+        <td>
+          £19.99
+        </td>
+      </tr>
+      <tr>
+        <td
+          colSpan="2"
+        >
+                  
+          <button
+            onClick={[Function]}
+          >
+            Book Seat
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

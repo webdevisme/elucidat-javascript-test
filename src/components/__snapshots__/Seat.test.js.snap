@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders seat data passed to prop 1`] = `
+<div
+  available="true"
+  className="Seat"
+  onClick={[Function]}
+>
+  <img
+    alt="Seat Icon"
+    src="Seat.svg"
+  />
+  <div
+    className="tooltip"
+  >
+    1A
+     : 
+    Available
+  </div>
+</div>
+`;
