@@ -1,5 +1,6 @@
 import React from "react";
 import './SeatTicket.css';
+import seatIcon from './Seat.svg';
 
 function SeatTicket(props) {
 
@@ -16,7 +17,8 @@ function SeatTicket(props) {
     }
   return (
     <div className="Ticket">
-        <button className="close" onClick={handleClose}>Close</button>
+        <button className="close" onClick={handleClose}>X</button>
+        <img src={seatIcon} alt="Seat Icon"/>
         <table className="details">
             <tbody>
                 <tr><td>Seat</td><td>{props.seat.seatNumber}</td></tr>
