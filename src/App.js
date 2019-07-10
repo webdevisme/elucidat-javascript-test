@@ -9,11 +9,10 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-      fetch("/seats.json")
-      .then( response => response.text())
-      .then( text => {
-        console.log(text);
-          setData(JSON.parse(text));
+      fetch("http://localhost:8080/seatData")
+      .then( response => response.json())
+      .then( data => {
+          setData(data.seats);
       })
   }, []);
 
