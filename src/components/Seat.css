@@ -1,0 +1,14 @@
+.Seat {
+    position: relative;
+
+}
+.Seat img {
+    width: 30px;
+    height: 20px;
+}
+.tooltip {
+    display: none;
+}
+.Seat:hover .tooltip {
+    display: inline-block;
+}
