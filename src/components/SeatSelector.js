@@ -17,7 +17,6 @@ function SeatSelector(props) {
         setData({...data , seats: data.seats, selectedSeat: null});
     }
     
-
     return ( 
     <div>
         <div className="legend"><span className="available">Seat Available</span><span className="taken">Seat Taken</span></div>

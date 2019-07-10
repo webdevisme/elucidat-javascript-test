@@ -1,6 +1,7 @@
 .Seat {
     position: relative;
-
+    text-align: center;
+    line-height: 2em;
 }
 .Seat img {
     width: 30px;
@@ -17,4 +18,14 @@
 }
 .Seat:hover .tooltip {
     display: inline-block;
+}
+.Seat:hover .tooltip {
+    display: inline-block;
+}
+
+[available=true] {
+    background-color: green;
+}
+[available=false] {
+    background-color: red;
 }

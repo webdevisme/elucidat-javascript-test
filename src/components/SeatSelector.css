@@ -10,3 +10,28 @@
 .SeatSelector li {
     width: 20%;
 }
+.SeatSelector::after {
+    content: 'Screen';
+    text-transform: uppercase;
+    border-bottom: solid 4px #333;
+
+    display: block;
+    position: absolute;
+    width: 100%;
+
+    bottom: 0;
+    text-align: center;
+}
+.legend {
+    margin: 20px;
+}
+.legend span {
+    margin-right: 20px;
+    padding: 5px;
+}
+.legend .available {
+    background-color: green;
+}
+.legend .taken {
+    background-color: red;
+}
