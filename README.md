@@ -1,3 +1,30 @@
+# Completion and Progress
+
+Basic application is working with simple Jest snapshot tests setup.
+
+Run the server with 
+
+```
+npm run start-backend
+```
+
+and to start the application server
+
+```
+npm start
+```
+
+or to run with tests (and watcher)
+
+```
+npm test
+```
+.
+.
+.
+
+
+
 # Elucidat Javascript Coding Test
 
 This coding test is split into two parts, frontend focused and backend focused, please pick the one that is most relevant to your desired role. Fullstack developers or the adventurous can attempt both.  Whatever test you do, please read to the end as there is information for both tests further down.
