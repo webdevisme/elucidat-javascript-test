@@ -1,0 +1,12 @@
+.SeatSelector {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 50px;
+    margin: 40px;
+}
+.SeatSelector li {
+    width: 20%;
+}
