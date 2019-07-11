@@ -11,7 +11,7 @@ npm run start-backend
 and to start the application server
 
 ```
-npm start
+npm start-frontend
 ```
 
 or to run with tests (and watcher)
